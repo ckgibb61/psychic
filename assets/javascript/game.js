@@ -22,7 +22,6 @@ console.log("ready")
         alert("You psychic, you! Buy a lottery ticket.");
         wins++;
         $(".ww").text(wins);
-        
         }
 
         else {
@@ -45,9 +44,8 @@ console.log("ready")
         "<p>losses: " + losses + "</p>" +
         "<p>Guesses so Far: " +  guessesSoFar.join(' ,');
 
-        // document.querySelector("#game").innerHTML = html;
+        document.querySelector("#game").innerHTML = html;
     };
-   
     
 
 });
