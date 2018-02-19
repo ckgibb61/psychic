@@ -13,7 +13,7 @@ console.log("ready")
     var reset = computerChoices-computerGuess;
     console.log(reset)
 
-    (document.onkeyup = function(event) {
+    document.onkeyup = function(event) {
         var userGuess = event.key;
     console.log(computerGuess.indexOf(userGuess))
     guessesSoFar.push(userGuess);
@@ -23,9 +23,8 @@ console.log("ready")
         wins++;
         $(".ww").text(wins);
         
-
-        // return computerChoices[Math.floor(Math.random() * computerChoices.length)];
         }
+
         else {
             guesses--;
             $(".count").text(guesses);
@@ -47,7 +46,7 @@ console.log("ready")
         "<p>Guesses so Far: " +  guessesSoFar.join(' ,');
 
         // document.querySelector("#game").innerHTML = html;
-    })();
+    };
    
     
 
