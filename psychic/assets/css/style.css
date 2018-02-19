@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.heading {
+    color: blueviolet;
+    font-size: 28pt;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.instructions {
+    color: goldenrod;
+    font-size: 14pt;
+    text-align: center;
+    width:100%;
+    margin-top: 40px;
+}
+
+.score {
+    color: goldenrod;
+    font-size: 14pt;
+    text-align: center;
+    width: 100%;
+    /* border: 3px teal; */
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.ll {
+    color: whitesmoke;
+}
+
+.ww {
+    color: whitesmoke;
+}
+
+.count {
+    color: whitesmoke;
+}
+.letters {
+    color: whitesmoke;
+}
